@@ -10,8 +10,8 @@
 </script>
 
 <style type="text/scss">
-  @import "../node_modules/bulma/sass/utilities/_all.sass";
-  @import "../node_modules/bulma/sass/grid/_all.sass";
+  @import "bulma/sass/utilities/_all.sass";
+  @import "bulma/sass/grid/_all.sass";
 
   .roller {
     border-radius: 10px;
