@@ -1,34 +1,13 @@
 <script>
-  export let name;
+  import DiceRoller from "./components/DiceRoller.svelte";
 </script>
 
-<style>
-  main {
-    text-align: center;
-    padding: 1em;
-    max-width: 240px;
-    margin: 0 auto;
-  }
-
-  h1 {
-    color: #ff3e00;
-    text-transform: uppercase;
-    font-size: 4em;
-    font-weight: 100;
-  }
-
-  @media (min-width: 640px) {
-    main {
-      max-width: none;
-    }
-  }
-</style>
+<svelte:head>
+  <script defer src="https://use.fontawesome.com/releases/v5.15.1/js/all.js">
+  </script>
+</svelte:head>
 
 <main>
-  <h1>Hello {name}!</h1>
-  <p>
-    Visit the
-    <a href="https://svelte.dev/tutorial">Svelte tutorial</a>
-    to learn how to build Svelte apps.
-  </p>
+  <DiceRoller />
+  <p>d4, d6, d8, d10, d12, and d20 by Lonnie Tapscott from the Noun Project</p>
 </main>
