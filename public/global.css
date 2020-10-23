@@ -15,19 +15,6 @@ body {
   background-color: #222;
 }
 
-a {
-  color: rgb(0, 116, 233);
-  text-decoration: none;
-}
-
-a:hover {
-  text-decoration: underline;
-}
-
-a:visited {
-  color: rgb(0, 116, 233);
-}
-
 label {
   display: block;
 }

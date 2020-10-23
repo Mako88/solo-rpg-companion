@@ -1,0 +1,16 @@
+$text: #ddd;
+$text-strong: #ddd;
+$primary: #00d1b2;
+$link: $primary;
+$tabs-link-color: #666;
+$tabs-border-bottom-color: #666;
+$tabs-link-hover-color: $text;
+$tabs-link-hover-border-bottom-color: $text;
+$tabs-link-active-color: $primary;
+$tabs-link-active-border-bottom-color: $primary;
+
+.is-primary {
+  color: $primary;
+}
+
+@import "bulma/bulma.sass";
